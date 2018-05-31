@@ -5,8 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>flappyBird</groupId>
-    <artifactId>flappy</artifactId>
-    <version>8.8.3</version>
+    <artifactId>flappy bird</artifactId>
     <packaging>jar</packaging>
 
     <build>
