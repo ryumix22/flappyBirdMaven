@@ -13,12 +13,10 @@ import java.net.MalformedURLException;
 
 class Bird extends Pane {
     Point2D velocity = new Point2D(0,0);
+    private Rectangle rectangle;
 
     Bird() {
-        Rectangle rectangle = new Rectangle(20, 20, Color.RED);
-        //File file = new File("pictures/bird");
-        //String localUrl = file.toURI().toURL().toString();
-        //ImageView image1 = new ImageView(localUrl);
+        rectangle = new Rectangle(20, 20, Color.RED);
         velocity = new Point2D(0,0);
         setTranslateY(300);
         setTranslateX(100);
@@ -63,6 +61,7 @@ class Bird extends Pane {
                 if (getBoundsInParent().intersects(w.getBoundsInParent())) {
                     if (getTranslateX() + 20 == w.getTranslateX()) {
                         setTranslateX(getTranslateX() - 1);
+                        rectangle.setFill(Color.BLACK);
                     }
                 }
             }
