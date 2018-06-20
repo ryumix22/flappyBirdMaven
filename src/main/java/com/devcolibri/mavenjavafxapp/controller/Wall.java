@@ -6,7 +6,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 
-class Wall extends Pane{
+class Wall extends Pane {
     Wall(int height) {
         Rectangle rectangle = new Rectangle(20, height, Color.BLUE);
 
