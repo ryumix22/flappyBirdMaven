@@ -8,6 +8,7 @@ import javafx.scene.Scene;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 
@@ -16,6 +17,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class SecondController {
+
+    @FXML
+    public Text textEnd;
 
 
     private static Pane appRoot = new Pane();

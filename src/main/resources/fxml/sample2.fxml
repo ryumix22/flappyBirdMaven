@@ -10,7 +10,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane fx:id="gamePane" prefHeight="590.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devcolibri.mavenjavafxapp.controller.SecondController">
    <children>
       <ImageView fx:id="background" fitHeight="610.0" fitWidth="610.0" pickOnBounds="true" preserveRatio="true">
@@ -18,5 +17,10 @@
             <Image url="@../backgroung.png" />
          </image>
       </ImageView>
+      <Text fx:id="textEnd" fill="RED" layoutX="38.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press R to restart game" textAlignment="CENTER" wrappingWidth="216.6708984375">
+         <font>
+            <Font name="Andalus" size="29.0" />
+         </font>
+      </Text>
    </children>
 </Pane>

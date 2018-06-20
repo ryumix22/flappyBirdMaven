@@ -18,7 +18,6 @@ class Bird extends Pane {
         setTranslateY(300);
         setTranslateX(100);
         getChildren().addAll(rectangle);
-
     }
 
     void moveY(int value) {
@@ -40,6 +39,7 @@ class Bird extends Pane {
                     }
                 }
             }
+
 
             if (getTranslateY() < 0) {
                 setTranslateY(0);
